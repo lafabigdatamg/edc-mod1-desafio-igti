@@ -9,7 +9,7 @@ spark = (
 # Ler os dados da RAIS 2020
 rais = (
     spark.read
-    .csv(".", inferSchema=True, header=True, sep=';', encoding="latin1")
+    .csv("s3://igti-eric-rais2020-mod1/raw/", inferSchema=True, header=True, sep=';', encoding="latin1")
 )
 
 # Corrige nome das colunas
