@@ -185,7 +185,7 @@ def pipeline_rais():
     #newstep = upsert_delta(cluid, res_emr)
     #res_ba = wait_upsert_delta(cluid, newstep)
     #res_ter = terminate_emr_cluster(res_ba, cluid)
-    res_ter = terminate_emr_cluster(cluid)
+    res_ter = terminate_emr_cluster(res_emr, cluid)
 
 
 execucao = pipeline_rais()
