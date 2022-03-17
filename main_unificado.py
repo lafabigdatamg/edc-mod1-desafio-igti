@@ -49,9 +49,9 @@ class ProgressPercentage(object):
 # Criar um cliente para interagir com o AWS S3
 s3_client = boto3.client('s3')
 
-s3_client.upload_file('dados/microdados_vinculos.csv',
-                      'datalake-eric-530623260384',
-                      'raw-data/microdados_vinculos.csv',
-                      Callback=ProgressPercentage('dados/microdados_vinculos.csv'))
+s3_client.upload_file('raw_dados/microdados_vinculos.csv',
+                      'igti-eric-rais2020-mod1',
+                      'raw/microdados_vinculos.csv',
+                      Callback=ProgressPercentage('raw_dados/microdados_vinculos.csv'))
 
 print("Processo de upload para o S3 finalizado!")
