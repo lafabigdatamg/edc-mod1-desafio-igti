@@ -108,7 +108,7 @@ rais = (
     .coalesce(50)
     .write
     .mode("overwrite")
-    .partitionBy('ano', 'uf')
+    # .partitionBy('ano', 'uf')
     .format("parquet")
     .save("s3://igti-eric-rais2020-mod1/staging-zone/")
 )
