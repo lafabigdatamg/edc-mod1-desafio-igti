@@ -12,7 +12,7 @@ Exercitar os seguintes conceitos trabalhados no Módulo:
 
 ### Enunciado
 
-Você é Engenheiro(a) de Dados de uma. A Startup está expandindo seu negócio para 
+Você é Engenheiro(a) de Dados de uma Startup que está expandindo seu negócio para 
 outras áreas do Brasil. A principal fonte de dados para entender o cenário econômico e 
 de trabalho atual é a RAIS, uma base de dados desafiadora! 
 Você deve fazer a ingestão da RAIS 2020 em uma estrutura de Data Lake na AWS (ou em 
